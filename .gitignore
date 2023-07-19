@@ -21,3 +21,5 @@ vendor/
 
 # Golang vendor
 src/vendor/
+
+tmp/

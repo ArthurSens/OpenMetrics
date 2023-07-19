@@ -4,6 +4,7 @@ syntax = "proto3";
 // Ensure to interpret "required" as semantically required for a valid message.
 // All string fields MUST be UTF-8 encoded strings.
 package openmetrics;
+option go_package = "github.com/arthursens/openmetrics/go;io_openmetrics_client";
 
 import "google/protobuf/timestamp.proto";
 
